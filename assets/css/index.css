@@ -1,0 +1,51 @@
+/* default */
+div {
+  padding: 5px 10px;
+}
+
+/* header */
+header {
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.title {
+  font-size: 30px;
+}
+
+.nav {
+  width: 50%;
+}
+
+.nav-list {
+  -webkit-appearance: none;
+  display: flex;
+  justify-content: space-around;
+  text-transform: uppercase;
+}
+
+/* container */
+.container {
+  margin: 0 auto;
+  background-image: url('../images/home-background-img.jpg');
+  width: 100vw;
+  height: calc(100vh - 80px);
+}
+
+.catch-copy-container {
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+.catch-copy-ja {
+  color: #fff;
+  font-size: 40px;
+}
+
+.catch-copy-en {
+  color: #888;
+  padding-left: 60px;
+  font-size: 30px;
+}
