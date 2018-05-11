@@ -3,6 +3,15 @@ div {
   padding: 5px 10px;
 }
 
+p,
+li {
+  padding: 5px;
+}
+
+li::before {
+  content: '- ';
+}
+
 /* header */
 header {
   padding: 20px 50px;
@@ -48,4 +57,34 @@ header {
   color: #888;
   padding-left: 60px;
   font-size: 30px;
+}
+
+/**************************************
+            about
+**************************************/
+
+.about-container {
+  display: flex;
+}
+
+.profile-container {
+  text-align: center;
+}
+
+#about-me {
+  text-transform: uppercase;
+}
+
+.about-block {
+  margin: 60px 0;
+}
+
+.about-title {
+  font-size: 30px;
+}
+
+.about-date {
+  display: inline-block;
+  width: 130px;
+  margin: 0 10px 0 0;
 }
