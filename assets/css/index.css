@@ -64,6 +64,8 @@ header {
 **************************************/
 
 .about-container {
+  margin: 100px auto;
+  width: 1000px;
   display: flex;
 }
 
@@ -87,4 +89,20 @@ header {
   display: inline-block;
   width: 130px;
   margin: 0 10px 0 0;
+}
+
+/**************************************
+            contact
+**************************************/
+
+.contact-wrapper {
+  margin: 100px;
+}
+
+.contact {
+  font-size: 20px;
+}
+
+.fab {
+  margin-right: 10px;
 }
