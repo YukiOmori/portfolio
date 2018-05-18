@@ -1,6 +1,9 @@
 /* default */
 div {
-  padding: 5px 10px;
+}
+
+a:hover {
+  background-color: #ccc;
 }
 
 p,
@@ -91,6 +94,86 @@ header {
   margin: 0 10px 0 0;
 }
 
+/**************************************
+            works
+**************************************/
+.work-wrapper {
+  display: flex;
+  margin: 50px;
+  border: solid 1px #555;
+  box-shadow: 10px 10px 10px #555;
+}
+
+.work-image {
+  display: block;
+  width: 50%;
+  height: 50%;
+}
+
+.work-text-wrapper {
+  padding: 5% 0;
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.work-title {
+  font-size: 30px;
+  padding: 10px;
+}
+
+.work-explanation {
+  padding: 0 50px;
+  height: 100px;
+  line-height: 30px;
+}
+
+.more-button {
+  display: block;
+  width: 50px;
+  margin: 0 auto;
+  padding: 5px;
+  background-color: #555;
+  color: #fff;
+}
+
+/**************************************
+            each work
+**************************************/
+.work-container {
+  margin: 50px;
+}
+
+.work-summary {
+  display: flex;
+}
+
+.work-info {
+  width: 30%;
+  margin: 0 10px;
+}
+
+.spec-wrapper {
+  margin-bottom: 40px;
+}
+
+.spec-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.spec-detail {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.work-main-image {
+  display: block;
+  width: 70%;
+  height: 70%;
+}
 /**************************************
             contact
 **************************************/
