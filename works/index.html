@@ -9,21 +9,33 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+	<script src="https://use.fontawesome.com/7c88af45de.js"></script>
   <title>ReverseEngineer</title>
 </head>
 <body>
+  <div id="mini-nav-container">
+    <ul id="mini-nav-wrapper">
+      <li class="mini-nav-list"><a href="../index.html">home</a></li>
+      <li class="mini-nav-list"><a href="../about.html">about</a></li>
+      <li class="mini-nav-list"><a href="index.html">works</a></li>
+      <li class="mini-nav-list"><a href="../contact.html">contact</a></li>
+    </ul>
+  </div>
   <header>
     <div class="title">Reverse Engineer</div>
+    <div class="short-title">RE</div>
     <nav class="nav">
-      <ul class="nav-list">
-        <li><a href="../index.html">home</a></li>
-        <li><a href="../about.html">about</a></li>
-        <li><a href="index.html">works</a></li>
-        <li><a href="../contact.html">contact</a></li>
-        <li><a href="http://oi-kore.blog.jp/" target="_blank">blog</a></li>
+      <i class="fa fa-bars" id="menu-button" aria-hidden="true"></i>
+      <ul class="nav-list-ul">
+        <li class="nav-list"><a href="../index.html">home</a></li>
+        <li class="nav-list"><a href="../about.html">about</a></li>
+        <li class="nav-list"><a href="index.html">works</a></li>
+        <li class="nav-list"><a href="../contact.html">contact</a></li>
+        <li class="nav-list"><a href="http://oi-kore.blog.jp/" target="_blank">blog</a></li>
       </ul>
     </nav>
   </header>
+
   <div class="works-container">
     <div class="work-wrapper">
       <img class="work-image" src="../assets/images/faaculty.jpg" alt="faaculty">
@@ -38,7 +50,7 @@
       </div>
     </div>
     <div class="work-wrapper">
-      <img class="work-image" src="../assets/images/shelfshare.jpg" alt="shelf-share">
+      <img class="work-image" src="../assets/images/shelf-share.jpg" alt="shelf-share">
       <div class="work-text-wrapper">
         <div class="work-title">Shelf Share</div>
         <div class="work-explanation">
@@ -47,7 +59,6 @@
           Web版のみ。
         </div>
         <a  class="more-button" href="shelf-share.html">More</a>
-        <!-- http://shelfshare-yukientrepreneur.c9users.io/home -->
       </div>
     </div>
     <div class="work-wrapper">
@@ -60,7 +71,6 @@
           Web版のみ。
         </div>
         <a  class="more-button" href="wine.html">More</a>
-        <!-- http://yukiomori.sakura.ne.jp/hw171102/ -->
       </div>
     </div>
     <div class="work-wrapper">
@@ -71,8 +81,7 @@
           グリッドに出現する黒丸の位置を覚えてハイスコアを目指せ！</br>
           Web版のみ。
         </div>
-        <a  class="more-button" href="faaculty.html">More</a>
-        <!-- http://yukiomori.sakura.ne.jp/hw171107/ -->
+        <a  class="more-button" href="memorize-game.html">More</a>
       </div>
     </div>
     <div class="work-wrapper">
@@ -84,8 +93,7 @@
           テキストメモをブラウザで保存。
           Web版のみ。
         </div>
-        <a  class="more-button" href="Evernate.html">More</a>
-        <!-- http://yukiomori.sakura.ne.jp/hw171102/ -->
+        <a  class="more-button" href="evernate.html">More</a>
       </div>
     </div>
     <div class="work-wrapper">
@@ -103,5 +111,6 @@
       <div></div>
     </div>
   </div>
+  <script src="../assets/js/index.js"></script>
 </body>
 </html>
