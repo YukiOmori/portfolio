@@ -159,14 +159,14 @@ header {
 **************************************/
 
 .about-container {
-  margin: 100px auto;
-  width: 1000px;
+  margin: 100px 50px;
   display: flex;
 }
 
 @media screen and (max-width: 1024px) {
   .about-container {
     display: block;
+    margin: 0;
   }
 }
 
@@ -268,7 +268,13 @@ header {
             each work
 **************************************/
 .work-container {
-  margin: 50px;
+  margin: 100px 50px;
+}
+
+@media screen and (max-width: 1024px) {
+  .work-container {
+    margin: 100px 0;
+  }
 }
 
 .work-summary {
@@ -278,6 +284,18 @@ header {
 .work-info {
   width: 30%;
   margin: 0 10px;
+}
+
+@media screen and (max-width: 1024px) {
+  .work-summary {
+    display: block;
+    text-align: center;
+  }
+
+  .work-info {
+    margin: 0 auto;
+    width: 100%;
+  }
 }
 
 .spec-wrapper {
@@ -298,6 +316,12 @@ header {
   display: block;
   width: 70%;
   height: 70%;
+}
+
+@media screen and (max-width: 1024px) {
+  .work-main-image {
+    width: 100%;
+  }
 }
 
 .content-wrapper {
