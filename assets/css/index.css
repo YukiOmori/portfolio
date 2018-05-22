@@ -1,4 +1,8 @@
 /* default */
+body {
+  font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3';
+}
+
 h2 {
   font-size: 24px;
   padding: 20px 0;
@@ -136,7 +140,7 @@ header {
   margin: 0 auto;
   background-image: url('../images/home-background-img.jpg');
   width: 100vw;
-  height: calc(100vh - 80px);
+  height: calc(100vh - 60px);
 }
 
 .catch-copy-container {
