@@ -1,5 +1,10 @@
 /* default */
-body {
+body,
+h2,
+a,
+div,
+p,
+li {
   font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3';
 }
 

@@ -3,7 +3,6 @@ $(() => {
   $('#menu-button').on('click', function () {
     $(this).data('click', ++menuClickCounter);
     if (menuClickCounter % 2 === 1) {
-      console.log('クリックしたよ');
       // $('#mini-nav-container').addClass('menu-clicked');
       $('#menu-button').addClass('menu-clicked');
       $('#mini-nav-container').fadeIn(300);
