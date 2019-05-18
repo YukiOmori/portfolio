@@ -35,7 +35,7 @@ header {
   align-items: baseline;
 }
 
-.profile-picture {
+.profile-picture img {
   width: 200px;
   border-radius: 100px;
 }
