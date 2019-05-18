@@ -35,6 +35,11 @@ header {
   align-items: baseline;
 }
 
+.profile-picture {
+  width: 200px;
+  border-radius: 100px;
+}
+
 @media screen and (max-width: 1024px) {
   header {
     margin: 0 10px;
