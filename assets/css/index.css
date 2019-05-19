@@ -1,11 +1,9 @@
 /* default */
-body,
-h2,
-a,
-div,
-p,
-li {
-  font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3';
+body {
+  font-family: 'Yu Gothic Medium', '游ゴシック Medium', YuGothic, '游ゴシック体',
+    'ヒラギノ角ゴ Pro W3', 'メイリオ', sans-serif;
+  font-style: normal;
+  -webkit-print-color-adjust: exact;
 }
 
 h2 {
